@@ -201,6 +201,7 @@ const ReactFlagsSelect: React.FC<Props> = ({
         disabled={disabled}
         aria-labelledby={btnId}
         aria-haspopup="listbox"
+        aria-label="languages-dropdown"
         aria-expanded={isDropdownOpen}
         data-testid={btnId}
       >
